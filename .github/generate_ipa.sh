@@ -1,6 +1,6 @@
 #!/bin/bash
 
-mkdir -p /Users/runner/work/PicaComic/PicaComic/build/ios/iphoneos/Payload
-mv /Users/runner/work/PicaComic/PicaComic/build/ios/iphoneos/Runner.app /Users/runner/work/PicaComic/PicaComic/build/ios/iphoneos/Payload
-cd /Users/runner/work/PicaComic/PicaComic/build/ios/iphoneos/
+mkdir -p ../deup-master/deup-master/build/ios/iphoneos/Payload
+mv ../deup-master/deup-master/build/ios/iphoneos/Runner.app ../deup-master/deup-master/build/ios/iphoneos/Payload
+cd ../deup-master/deup-master/build/ios/iphoneos/
 zip -r app-ios.ipa Payload
