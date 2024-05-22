@@ -25,5 +25,5 @@ jobs:
 
     - uses: actions/upload-artifact@v3
       with:
-        name: app-ios.ipa
-        path: "build/ios/iphoneos/deup-ios-nosign.ipa"
+        name: app-release.ipa
+        path: "build/ios/iphoneos/app-release.ipa"
